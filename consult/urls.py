@@ -25,7 +25,7 @@ urlpatterns = [
     path('', include('teksystems.urls')),
     path('careers/', include('careers.urls')),
     path('industries/', include('industries.urls')),
-    path('insight/', include('insights.urls')),
+    path('insights/', include('insights.urls')),
     path('what_we_do/', include('what_we_do.urls')),
     path('who_we_are/', include('who_we_are.urls')),
 ]

@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'insights.apps.InsightsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +42,6 @@ INSTALLED_APPS = [
     'teksystems',
     'careers',
     'industries',
-    'insights',
     'what_we_do',
     'who_we_are'
 ]

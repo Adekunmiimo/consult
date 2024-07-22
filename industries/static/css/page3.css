@@ -1,0 +1,442 @@
+
+.page3HeroSection{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.page3HeroSectionleft{
+    width: 600px;
+   
+}
+.page3HeroSectionleft small{
+    color: rgb(7, 233, 233);
+}
+.page3HeroSectionleft h2{
+    font-size: 35px;
+}
+.page3HeroSectionleftimg{
+    width: 500px;
+    height: 300px;
+    padding: 10px 0;
+    
+}
+.page3HeroSectionleftimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.page3HeroSectionleftp {
+    padding: 20px 0;
+    width: 530px;
+    line-height: 30px;
+}
+
+.page3HeroSectionBTN button{
+    transform: translateX(430px);
+    border: none;
+    background: greenyellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+
+.page3HeroSectionright{
+    width: 300px;
+    border-left: 1px gray solid ;
+}
+
+.page3HeroSectionrightcard{
+    padding: 0 15px;
+}
+.page3HeroSectionrightcard h3{
+    font-size: 25px;
+}
+.page3HeroSectionrightcard p{
+    padding: 20px 0;
+}
+
+.page3HeroSectionrightcardarrow i{
+    color: green;
+    font-size: 25px;
+
+    
+}
+.page3HeroSectionrightcardarrow{
+    
+    width: 30px;
+    transform: translateX(220px);
+}
+
+.page3RecentIncightText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 110px ;
+    padding-bottom: 50px;
+
+}
+.page3RecentIncightText h3{
+    font-size: 50px;
+    
+}
+
+.page3RecentIncightText p{
+    font-size: 30px;
+    color: aqua;
+}
+.page3RecentIncightdetails{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 20px;
+}
+.serviceSelect{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.conntentSelect{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+.industriesSelect{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.page3IndusrySearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page3IndusrySearchText{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+}
+.searchLence{
+    padding: 10px;
+    background: greenyellow;
+    border-radius: 0 5px 5px 0;
+}
+
+.page3versionActivate{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.page3versionActivateCont a{
+    color: black;
+}
+
+.page3versionActivateContImg{
+    width: 500px; 
+}
+
+.page3versionActivateContImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.page3versionActivateContText{
+    width: 500px;
+    
+}
+
+.page3versionActivateContText small{
+    margin-top: 30px;
+    color: aqua;
+}
+
+.page3versionActivateContText h4{
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+
+/* page3Content */
+.page3ContentlatesestInsight{
+    margin-top: 20px;
+    min-height: 100vh;
+}
+
+.page3ContentlatestInsightText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 110px;
+
+}
+
+.page3ContentlIt small{
+    font-size: 15px;
+    width: bold;
+    color: aqua;
+}
+
+.page3ContentlIt h3{
+    font-size: 30px;
+    width: bold;
+    margin-top: 20px;
+}
+
+.page3ContentlItA{
+    display: flex;
+    color: #37a000;
+}
+
+.page3ContentlItA h3{
+    margin: 0 10px;
+}
+
+.page3ContentlItA h3:hover{
+    transform: translateX(-10px);
+    transition: .3s;
+}
+
+.page3ContentlItA i{
+    font-size: 20px;
+    width: bold;
+}
+.page3ContentlatestInsightImagecardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.page3ContentlatestInsImageCard{
+    background: white;
+}
+
+.page3ContentlateInImage{
+    overflow: hidden;
+    height: 200px;
+    border-radius: 10px;
+}
+.page3ContentlateInImage img{
+    transition: all .3s ease;
+}
+
+.page3ContentlateInImage img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    width: 350px;
+    transition: all .5 ease;
+}
+
+.page3ContentlatestInsImageCard:hover .OurlItcArrow{
+    border-bottom: 1px solid black;
+    color: black;
+    margin-top: 20px;
+}
+
+
+
+.page3ContentlatestInsImageCard{
+    /* display: grid; */
+    width: 300px;
+    overflow: hidden;
+    /* background: whitesmoke; */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.page3ContentlateInImage img{
+    border-radius: 10px;
+}
+
+.page3ContentlateInText small{
+    margin: 10px 0;
+    color: aqua;
+    font-size: 20px;
+    width: bold;
+}
+.page3ContentlateInText{
+    font-size: 18px;
+    width: bold;
+    padding: 10px 20px;
+}
+
+.page3ContentlateInText p{
+    margin: 10px 0;
+}
+.page3ContentlItcArrow{
+    display: flex;
+    align-items: center;
+    color: #37a000;
+    width: max-content;
+    
+}
+.page3ContentlItcArrow h3{
+    margin-right: 10px;
+}
+
+
+.page3Infocontabout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px  0;
+    height: 100vh;
+   
+}
+.page3InfocontaboutImage{
+    position: relative;
+    height: 400px;
+    
+}
+.page3InfocontaboutImage1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 300px;
+    position: absolute;
+    /* top: -10px; */
+    right: -100px;
+}
+.page3InfocontaboutImage2{
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    height: 300px;
+    margin-right: 50px;
+    position: absolute;
+    bottom: -170px;
+    right: -200px;
+}
+
+.page3InfocontaboutText{
+    width: 500px;
+}
+
+.page3InfocontaboutText small{
+    font-size: 20px;
+    color: aqua;
+}
+.page3InfocontaboutText h3{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.page3InfocontaboutText p{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.page3InfocontaboutBtn button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    margin-top: 50px;
+    font-size: 20px;
+    transform: translateX(250px);
+}
+.page3VdeoDoc{
+   
+    width: 1000px;
+    height: 600px;
+    margin: 100px 0;
+    transform: translateX(190px);
+    padding-bottom: 100px;
+}
+
+.page3VdeoDoc video{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.page3successStories{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page3successStoriesGroup1{
+    transform: translateY(-10px);
+}
+
+.page3successStoriesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin: 50px 0;
+}
+.page3successStoriesConImage{
+    width: 500px;
+    height: 100px;
+    margin-right: 20px;
+    transform: translateY(-30px);
+}
+
+.page3successStoriesConImage img{
+    width: 100%;
+    border-radius: 5px;
+}
+.page3successStoriesConText p{
+    padding: 20px 0;
+}
+
+.page3successStoriesConText a{
+    color: rgb(128, 207, 11);
+  
+}
+
+.page3successStoriesGroup2{
+    border-left: .2px gray solid;
+    padding-left: 30px;
+}
+
+.page3successStoriesGroup2Cont{
+    padding: 20px 0;
+    width: 450px;
+    margin-top: 10px;
+    border-bottom: .2px gray solid;
+}
+
+.page3successStoriesBTN button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: greenyellow;
+    margin-top: 20px;
+    transform: translateX(300px);
+}
+
+.page3SocialMediaContat{
+    margin-top: 20px;
+}
+
+.page3SocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: rgb(46, 166, 187);
+    padding: 30px 0;
+}
+
+.page3SocialMediaText h3{
+    font-size: 30px;
+    color: white;
+}
+
+.page3SocialMediaIcons i{
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+}
