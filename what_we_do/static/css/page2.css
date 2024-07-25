@@ -1,5 +1,5 @@
 .page2HeroSection{
-    background: url("./assets/pg2bng.jpg");
+    background: url("..img/pg2bng.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -60,7 +60,7 @@
 }
 
 .page2infoSectionText2{
-    background: url("./assets/nightinfo.jpg");
+    background: url("..img/nightinfo.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
