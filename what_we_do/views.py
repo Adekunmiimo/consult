@@ -7,3 +7,10 @@ def page_detail(request, slug):
 
 def abt(request):
     return render(request, 'abt.html')
+
+
+def maxi(request):
+    return render(request, 'maxi.html')
+
+def drive(request):
+    return render(request, 'drive.html')

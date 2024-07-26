@@ -1,10 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load static %} 
-
+ <link rel="stylesheet" href="{% static '/what_we/css/style.css' %}">
+ <link rel="stylesheet" href="{% static '/what_we/css/abt.css' %}">
     <!-- Section 2 adHeroSec -->
     <div class="adtHeroSec">
-        <img src="{% static 'img/abt_bg_img.jpg'%}" class="abtHeroImg" width="1350px">
+        <img src="{% static '/what_we/img/abt_bg_img.jpg'%}" class="abtHeroImg" width="1350px">
         <div class="abtHeroOverlay"></div>
         <div class="abtHeroTextContainer">
             <h2>
@@ -27,7 +28,7 @@
     <div class="aboutUsTK">
         <div class="aboutUsTkUpper">
             <div class="aboutUsCityTri" >
-                <img src="{% static 'img/city_tri_img.jpg'%}" width="100%">
+                <img src="{% static '/what_we/img/city_tri_img.jpg'%}" width="100%">
             </div>
             <div class="aboutUsTextContainer">
                 <h2>
