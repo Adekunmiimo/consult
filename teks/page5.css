@@ -624,9 +624,139 @@
     
 }
 
-.pg5_btn:hover{
-    opacity: 1;
-    transform: translateY(0);
+
+
+
+.groupInfo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.groupinfo1{
+    width: 500px;
+}
+
+.groupinfo1 h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.groupinfo1 hr{
+    height:5px;
+    border: none;
+    background: rgb(8, 50, 175);
+    margin-bottom: 15px;
+}
+
+.groupinfo1 p{
+    width: 500px;
+    font-size: 25px;
+    padding-left: 50px;
 }
 
 
+.pg5_btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(400px);
+    margin-top: 30px;
+}
+
+.groupInfoSec2{
+    padding-top: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.groupInfoSec2leftcontainer{
+    width: 650px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.groupInfoSec2leftcontainer hr{
+    height:5px;
+    border: none;
+    background: rgb(8, 50, 175);
+    margin-bottom: 15px;
+}
+
+.groupInfoSec2left{
+    padding-top: 20px;
+}
+
+.groupInfoSec2leftUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+}
+
+.groupInfoSec2leftUp h2{
+    font-size: 50px;
+}
+
+.groupInfoSec2leftUp p{
+    font-size: 25px;
+    color: #37a000;
+}
+
+.groupInfoSec2leftdown p{
+    width: 500px;
+    font-size: 25px;
+    padding-left: 50px;
+    
+}
+
+.groupInfoSec2right a{
+    color: black;
+}
+
+.groupInfoSec2rightCard{
+    padding: 50px 50px;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+.groupInfoSec2rightCardUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translateY(-80px);
+}
+
+.groupInfoSec2rightCardUp h1{
+    font-size: 100px;
+    transform: translateX(-100px);
+}
+
+.groupInfoSec2rightCardUp i{
+    font-size: 130px;
+    transform: translateX(-150px);
+}
+
+.groupInfoSec2rightCardDown p{
+    font-size: 25px;
+    width: 400px;
+    transform: translateY(-80px);
+}
+
+.groupInfoSecpg5_btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    transform: translateX(200px);
+    margin-top: 30px; 
+}
