@@ -1,0 +1,632 @@
+.page5HeroSection{
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+   
+    
+ }
+
+ .page5heroVide{
+    width: 100%;
+}
+.page5heroOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.20);
+
+}
+
+.page5heroTextContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    z-index: 345678;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page5heroTextContainer h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 150px;
+}
+
+.page5heroTextContainer h2{
+    color: white;
+    transform: translateY(-50px);
+    transform: translateX(-60px);
+}
+
+.page5heroTextContainer h3{
+    font-size: 30px;
+    color: white;
+    margin: 50px 0 50px 100px;
+    font-weight: normal;
+
+}
+
+
+.page5WhoWeServeSection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.page5WhoWeServeSectionText{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 100px;
+
+    gap: 10px;
+}
+
+.page5WhoWeServeSectionText p{
+    font-size: 20px;
+    color: aqua;
+}
+
+.page5WhoWeServeSectionText h3{
+    font-size: 40px;
+}
+
+
+
+
+/* Gallary */
+
+.page5gallary{
+    width: 100%;
+    padding: 50px;
+}
+
+.page5gallary h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.page5gallary h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+}
+
+.page5gallary h1 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.page5gallary .page5gallary_image_box{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    grid-gap:10px;
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 20px;
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image img{
+    width: 100%;
+    transition: .3s;
+    border-radius: 20px;
+    
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image:hover img{
+    opacity: 0.4;
+
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image h3{
+    position: absolute;
+    font-size: 35px;
+    margin-bottom: 130px;
+    color: aqua;
+    font-family: polo;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image:hover h3{
+    opacity: 1;
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image p{
+    position: absolute;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    line-height: 22px;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.3s;
+
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image:hover p{
+    opacity: 1;
+
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image .page5gallary_btn{
+    position: absolute;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    color: #000;
+    background: greenyellow;
+    padding: 7px 25px;
+    opacity: 0;
+    border-radius: 5px;
+    transform: translateY(45px);
+    z-index: 5;
+    transition: 0.3s;
+}
+
+.page5gallary .page5gallary_image_box .page5gallary_image:hover .page5gallary_btn{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/* our latest Insight */
+
+
+.page5OurlatesestInsight{
+    margin-top: 20px;
+    height: 100vh;
+}
+
+.page5OurlatestInsightText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 110px;
+
+}
+
+.page5OurlIt small{
+    font-size: 15px;
+    width: bold;
+    color: aqua;
+}
+
+.page5OurlIt h3{
+    font-size: 30px;
+    width: bold;
+    margin-top: 20px;
+}
+
+.page5OurlItA{
+    display: flex;
+    color: #37a000;
+}
+
+.page5OurlItA h3{
+    margin: 0 10px;
+}
+
+.page5OurlItA h3:hover{
+    transform: translateX(-10px);
+    transition: .3s;
+}
+
+.page5OurlItA i{
+    font-size: 20px;
+    width: bold;
+}
+.page5OurlatestInsightImagecardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.page5OurlatestInsImageCard{
+    background: white;
+}
+
+.page5OurlateInImage{
+    overflow: hidden;
+    height: 200px;
+    border-radius: 10px;
+}
+.page5OurlateInImage img{
+    transition: all .3s ease;
+}
+
+.page5OurlateInImage img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    width: 350px;
+    transition: all .5 ease;
+}
+
+.page5OurlatestInsImageCard:hover .OurlItcArrow{
+    border-bottom: 1px solid black;
+    color: black;
+    margin-top: 20px;
+}
+
+
+
+.page5OurlatestInsImageCard{
+    /* display: grid; */
+    width: 300px;
+    overflow: hidden;
+    /* background: whitesmoke; */
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.page5OurlateInImage img{
+    border-radius: 10px;
+}
+
+.page5OurlateInText small{
+    margin: 10px 0;
+    color: aqua;
+    font-size: 20px;
+    width: bold;
+}
+.page5OurlateInText{
+    font-size: 18px;
+    width: bold;
+    padding: 10px 20px;
+}
+
+.page5OurlateInText p{
+    margin: 10px 0;
+}
+.page5OurlItcArrow{
+    display: flex;
+    align-items: center;
+    color: #37a000;
+    width: max-content;
+    
+}
+.page5OurlItcArrow h3{
+    margin-right: 10px;
+}
+
+
+/* radal bar */
+
+.skillsSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    width: 800px;
+    height: 400px;
+    padding: 90px 90px;
+    /* margin-left: 50px; */  
+}
+
+
+.container1 p{
+    font-size: 35px;
+}
+.container2 small{
+    font-size: 20px;
+    color: aqua;
+    padding-top: 50px;
+}
+
+
+
+.bar {
+    font-size: 23px;
+}
+
+.technicalBars .bar {
+    margin-top: 40px 0;
+}
+
+.technicalBars .bar:first-child {
+    margin-top: 0;
+}
+
+.technicalBars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.technicalBars .bar .info {
+    margin-bottom: 5px;
+}
+
+.technicalBars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.technicalBars .bar .progressLine {
+    position: relative;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #000000;
+    animation: animate 1s cubic-bezier(1, 0, 0, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.technicalBars .bar .progressLine span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.progressLine.html span {
+    width: 90%;
+}
+.progressLine.css span{
+    width: 60%;
+}
+.progressLine.JavaScript span{
+    width: 50%;
+}
+.progressLine.Python span{
+    width: 85%;
+}
+.progressLine.Langchain span{
+    width: 75%;
+}
+
+.progressLine span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progressLine.html span::after{
+    content: 90%;
+}
+.progressLine.css span::after{
+    content: 60%;
+}
+.progressLine.JavaScript span::after{
+    content: 50%;
+}
+.progressLine.Python span::after{
+    content: 85%;
+}
+.progressLine.Langchain span::after{
+    content: 75%;
+}
+
+.progressLine span::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.radialBars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radialBars .radialBar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radialBars .radialBar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radialBars .radialBar .progress-bar{
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+
+.path{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.Path-1{animation: animate-path1 1s 1s linear forwards;}
+.Path-2{animation: animate-path2 1s 1s linear forwards;}
+.Path-3{animation: animate-path3 1s 1s linear forwards;}
+.Path-4{animation: animate-path4 1s 1s linear forwards;}
+
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 50;;
+    }
+}
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 175;;
+    }
+}
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 160;;
+    }
+}
+@keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 75;;
+    }
+}
+
+.radialBar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.radialBar .percentageText{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.pg5_btn {
+    color: #000;
+    
+}
+
+.pg5_btn:hover{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
