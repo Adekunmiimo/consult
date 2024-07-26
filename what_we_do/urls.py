@@ -5,5 +5,4 @@ urlpatterns = [
     path('about/', abt, name='abt'),
     path('maxi/', maxi, name='maxi'),
     path('drive/', drive, name='drive'),
-
 ]
