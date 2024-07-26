@@ -1,77 +1,425 @@
-{% extends 'base.html' %}
+{% extends "base_common.html" %}
+
+{% block title %} Maximum {% endblock %}
+
 {% block content %}
-{% load static %} 
+{% load static %}
+ <link rel="stylesheet" href="{% static '/what_we/css/style.css' %}">
+ <link rel="stylesheet" href="{% static '/what_we/css/common.css' %}">
+ <link rel="stylesheet" href="{% static '/what_we/css/page1.css' %}">
+ <link rel="stylesheet" href="{% static '/careers/css/page3.css' %}">
+ <link rel="stylesheet" href="{% static '/careers/css/page2.css' %}">
+ <link rel="stylesheet" href="{% static '/careers/css/careers.css' %}">
 
-   
-
-    <div class="page4HeroSection">
-        <div class="page4HeroSectionImg">
-            <img src="{% static 'img/office_people.jpg'%}" >
-            <div class="page4HeroSectionImgFilter">
-                
-            </div>
-
+<div class="page3HeroSection">
+    <div class="page3HeroSectionleft">
+        <small>Version Next, Now</small>
+        <h2>MODERNIZING APPLICATIONS FOR TOMORROW</h2>
+        <div class="page3HeroSectionleftimg">
+            <img src="{% static 'img/gadgetsss.jpg'%}" >
+        </div>
+        <div class="page3HeroSectionleftp">
+            <p>TEKsystems Global Services experts share their knowledge on modernized applications and how they enable greater agility and innovation, allowing organizations to seize new opportunities and adapt quickly to market changes.</p>
         </div>
 
-        <div class="page4HeroSectionText">
-            <small>Careers</small>
-            <h1>OWN YOUR TOMORROW</h1>
+        <div class="page3HeroSectionBTN">
+            <button>Read more</button>
+        </div>
+    </div>
+    <div class="page3HeroSectionright">
+        <div class="page3HeroSectionrightcard">
+            <h3>Mitigate organizational risk through PAM</h3>
+            <p>Learn how to strengthen your enterprise security through internal employee privileged access</p>
+
+            <div class="page3HeroSectionrightcardarrow">
+                <i class="bi bi-arrow-right"></i>
+            </div>
+            <hr>
+        </div>
+        <div class="page3HeroSectionrightcard">
+            <h3>Mitigate organizational risk through PAM</h3>
+            <p>Learn how to strengthen your enterprise security through internal employee privileged access</p>
+
+            <div class="page3HeroSectionrightcardarrow">
+                <i class="bi bi-arrow-right"></i>
+            </div>
+            <hr>
+        </div>
+        <div class="page3HeroSectionrightcard">
+            <h3>Mitigate organizational risk through PAM</h3>
+            <p>Learn how to strengthen your enterprise security through internal employee privileged access</p>
+
+            <div class="page3HeroSectionrightcardarrow">
+                <i class="bi bi-arrow-right"></i>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+</div>
+
+<div class="page3RecentIncight">
+    <div class="page3RecentIncightText">
+        <p>Recent Insights</p>
+        <h3>VISION ACTIVATED</h3>
+    </div>
+    <div class="page3RecentIncightdetails">
+        <select name="" id="" class="serviceSelect">
+            <option value="">Service</option>
+            <option value="agile-transformation">Agile Transformation (21)</option>
+            <option value="ai-ml-automation">AI ML Automation (67)</option>
+            <option value="application-innovation">Application Innovation (37)</option>
+            <option value="brand-strategy-design">Brand Strategy and Design (15)</option>
+            <option value="business-modernization">Business Modernization (57)</option>
+            <option value="cloud-services">Cloud Services (162)</option>
+            <option value="data-analytics">Data Analytics (148)</option>
+            <option value="data-analytics-ex-design">Data Analytics and EX Design (8)</option>
+            <option value="devops-agile">DevOps/Agile (8)</option>
+            <option value="digital-strategy-experience-design">Digital Strategy and Experience Design (97)</option>
+            <option value="digital-workplace-services">Digital Workplace Services (27)</option>
+            <option value="enterprise-applications">Enterprise Applications (33)</option>
+            <option value="marketplace-diversity-solutions">Marketplace Diversity Solutions (13)</option>
+            <option value="risk-security">Risk & Security (62)</option>
+            <option value="talent-solutions">Talent Solutions (202)</option>
+            <option value="technology-operations-management">Technology Operations Management (6)</option>
+            <option value="telecom-design-implementation-operations">Telecom Design, Implementation & Operations (13)</option>
+            <option value="vision-building-alignment">Vision Building and Alignment (5)</option>
+            <option value="workforce-development">Workforce Development (82)</option>
+        </select>
+        <select name="content_type" id="content_type" class="conntentSelect">
+            <option value="">Content Type</option>
+            <option value="article">Article (344)</option>
+            <option value="feature">Feature (34)</option>
+            <option value="infographic">Infographic (32)</option>
+            <option value="news-article">News Article (204)</option>
+            <option value="podcast">Podcast (41)</option>
+            <option value="press-release">Press Release (300)</option>
+            <option value="success-story">Success Story (114)</option>
+            <option value="video">Video (19)</option>
+            <option value="webinar">Webinar (12)</option>
+            <option value="white-paper">White Paper (4)</option>
+        </select>
+        <select name="industry" id="industry" class="industriesSelect">
+            <option value="">Industry</option>
+            <option value="retail-cpg">Retail & Consumer Packaged Goods (CPG) (15)</option>
+            <option value="education">Education (14)</option>
+            <option value="energy">Energy (7)</option>
+            <option value="financial-services">Financial Services (17)</option>
+            <option value="healthcare">Healthcare (54)</option>
+            <option value="hospitality">Hospitality (3)</option>
+            <option value="industrial-products">Industrial Products (3)</option>
+            <option value="legal">Legal (1)</option>
+            <option value="media-entertainment-gaming">Media, Entertainment & Gaming (27)</option>
+            <option value="public-sector">Public Sector (7)</option>
+            <option value="technology-enablement">Technology Enablement (7)</option>
+            <option value="telecommunications">Telecommunications (2)</option>
+            <option value="transportation">Transportation (7)</option>
+            <option value="travel">Travel (1)</option>
+        </select>
+
+        <div class="page3IndusrySearch">
+            <input type="text" placeholder="Search" class="page3IndusrySearchText">
+            <div class="searchLence">
+                <i class="bi bi-search"></i>
+            </div>
         </div>
     </div>
 
-    <div class="page4WorkWithUsGroup">
-        <div class="page4WorkWithUs">
-            <div class="page4WorkWithUsImg">
-                <img src="{% static 'img/workWithUs.jpg'%}" >
-            </div>
-            <div class="page4WorkWithUsText">
-                <h3>Work With Us</h3>
-                <p>Put your talent to work and discover exciting consultant opportunities working with over 80% of the Fortune 500.</p>
-            </div>
+    <div class="page3versionActivate">
+        <div class="page3versionActivateCont">
+            <a href="">
+                <div class="page3versionActivateContImg">
+                    <img src="{% static 'img/abst1.jpg'%}" alt="" >
+                </div>
+                <div class="page3versionActivateContText">
+                    <small>Press Release</small>
+                    <h4>
+                        TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization
+
+                    </h4>
+                    <p>
+                        TEKsystems Global Services has been recognized by Microsoft for their dual achievements of the Azure Infrastructure designation and the Analytics on Microsoft Azure specialization.
+                    </p>
+                </div>
+            </a>
         </div>
-        <div class="page4WorkForUs">
-            <div class="page4WorkForUsImg">
-                <img src="{% static 'img/workForeUs.jpg'%}">
+        <div class="page3versionActivateCont">
+            <a href="">
+                <div class="page3versionActivateContImg">
+                    <img src="{% static 'img/abst1.jpg'%}" alt="" >
+                </div>
+                <div class="page3versionActivateContText">
+                    <small>Press Release</small>
+                    <h4>
+                        TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization
+
+                    </h4>
+                    <p>
+                        TEKsystems Global Services has been recognized by Microsoft for their dual achievements of the Azure Infrastructure designation and the Analytics on Microsoft Azure specialization.
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="page3ContentlatesestInsight">
+    <div class="page3ContentlatestInsightText">
+        <div class="page3ContentlIt">
+            <small>Latest Insights</small>
+            <h3>Thinking Forward</h3>
+        </div>
+        <div class="page3ContentlItA">
+            <h3>View All</h3>
+            <i class="bi bi-arrow-right"></i>
+        </div>
+    </div>
+    <div class="page3ContentlatestInsightImagecardContainer">
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="page4WorkForUsText">
-                <h3>Work For Us</h3>
-                <p>There are many ways to make an impact at TEKsystems. Find the internal career path that’s right for you.</p>
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page3ContentlatestInsightCardConataner">
+                <div class="page3ContentlatestInsImageCard">
+                    <div class="page3ContentlateInImage">
+                        <img src="{% static 'img/coworkers.jpg'%}" width="100%">
+                    </div>
+                    <div class="page3ContentlateInText">
+                        <small>
+                            Infographic
+                        </small>
+                        <h3>
+                            Create a Customized Plan for  Your Snowflake Data Migration
+                        </h3>
+                        <p>
+                            Implement these seven strategies for optimizing costs with Snowflake to help your  organization  efficiently manage resources.
+                        </p>
+                        <div class="OurlItcArrow">
+                            <h3>View All</h3>
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </div>
+</div>
+
+<!-- page3Infocontabout -->
+<div class="page3Infocontabout">
+
+
+    <div class="page3InfocontaboutText">
+        <small>Diversity, Equity and Inclusion in IT 2024</small>
+        <h3>CREATING INCLUSIVE AND EFFECTIVE STRATEGIES FOR ALL</h3>
+        <p>In 2024, TEKsystems examined employee perceptions about the impact of DEI programs in IT. Learn more about the DEI report, which uncovers workplace equality challenges and their implication on diversity in tech.</p>
+        <div class="page3InfocontaboutBtn">
+            <button >
+                view the Report
+            </button>
         </div>
     </div>
 
-    <div class="page4ServingVeterans">
-        <div class="page4ServingVeteransText">
-            <h3>Serving Veterans</h3>
-            <p>We actively support veterans, active military and military spouses in achieving their career goals and ambitions. Let us serve you as your partner in career transformation.</p>
-            <a href="">Learn More</a>
+    <div class="page3InfocontaboutImage">
+        <div class="page3InfocontaboutImage1" data-aos="fade-down">
+            <img src="{% static 'img/roadlight.jpg'%}" width="400px">
         </div>
-        <div class="page4ServingVeteransImg">
-            <img src="{% static 'img/vetrans.jpg'%}" >
+        <div class="page3InfocontaboutImage2" data-aos="fade-right">
+            <img src="{% static 'img/ladypage.jpg'%}" width="400px">
         </div>
     </div>
 
-    <div class="page4InclusionDiversity">
-        <div class="page4InclusionDiversityImg">
-            <img src="{% static 'img/officeMeeting.jpg'%}">
-        </div>
-        <div class="page4InclusionDiversityText">
-            <h3>
-                Inclusion & Diversity
-            </h3>
-            <p>We’re on a mission to build a more inclusive and diverse workplace. We know diversity is powerful. Come find your place.</p>
 
-            <a href="">Learn More</a>
+</div>
+
+<div class="page3VdeoDoc">
+    <video src="{% static 'img/citytopView.mp4' %}" muted autoplay loop class="heroVide"></video>
+</div>
+
+<div class="page3successStories">
+    <div class="page3successStoriesGroup1">
+        <h1>SUCCESS STORY</h1>
+        <div class="page3successStoriesContainer">
+            <div class="page3successStoriesConImage">
+                <img src="{% static 'img/gardingwork.jpg'%}" alt="" >
+            </div>
+            <div class="page3successStoriesConText">
+                <h3>Farmers Edge: From Farm to Data Table</h3>
+                <p>Farmers Edge builds an application in Apigee X to monetize their data.</p>
+                <a href="">Read How<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="page3successStoriesContainer">
+            <div class="page3successStoriesConImage">
+                <img src="{% static 'img/gardingwork.jpg'%}" alt="" >
+            </div>
+            <div class="page3successStoriesConText">
+                <h3>Farmers Edge: From Farm to Data Table</h3>
+                <p>Farmers Edge builds an application in Apigee X to monetize their data.</p>
+                <a href="">Read How<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="page3successStoriesContainer">
+            <div class="page3successStoriesConImage">
+                <img src="{% static 'img/gardingwork.jpg'%}" alt="" >
+            </div>
+            <div class="page3successStoriesConText">
+                <h3>Farmers Edge: From Farm to Data Table</h3>
+                <p>Farmers Edge builds an application in Apigee X to monetize their data.</p>
+                <a href="">Read How<i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="page3successStoriesBTN">
+            <button>More Success Story</button>
         </div>
     </div>
+    <div class="page3successStoriesGroup2">
+        <h1>NEWS ROOM</h1>
+        <div class="page3successStoriesGroup2Cont">
+            <small>Jun. 27, 2024</small>
+            <h3>TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization</h3>
+        </div>
+        <div class="page3successStoriesGroup2Cont">
+            <small>Jun. 27, 2024</small>
+            <h3>TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization</h3>
+        </div>
+        <div class="page3successStoriesGroup2Cont">
+            <small>Jun. 27, 2024</small>
+            <h3>TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization</h3>
+        </div>
+        <div class="page3successStoriesGroup2Cont">
+            <small>Jun. 27, 2024</small>
+            <h3>TEKsystems Global Services Recognized by Microsoft for Their Achievements of Azure Infrastructure Designation and Analytics on Microsoft Azure Specialization</h3>
+        </div>
 
-    <div class="page4Conclusion">
-
-
-        <p>
-            We are an equal opportunity employers and will consider all applications without regard to race, genetic information, sex, age, color, religion, national origin, veteran status, disability or any other characteristic protected by law. To view the EEO is the law poster click here. Applicants with disabilities that require an accommodation or assistance a position, please call 888-472-3411. This is a dedicated line designed exclusively to assist job seekers whose disability prevents them from being able to apply online. Messages left for other purposes will not receive a response. For information on H-1B nonimmigrants working at various US locations see Labor Condition Applications (“LCAs”) under the Career tab above.
-        </p>
+        <div class="page3successStoriesBTN">
+            <button>More News</button>
+        </div>
     </div>
+</div>
 
+<div class="page3SocialMediaContat">
+    <div class="page3SocialMedia">
+        <div class="page3SocialMediaText">
+            <h3>Connect with Us</h3>
+        </div>
+        <div class="page3SocialMediaIcons">
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

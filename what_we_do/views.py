@@ -14,3 +14,7 @@ def maxi(request):
 
 def drive(request):
     return render(request, 'drive.html')
+
+
+def cloud1(request):
+    return render(request, 'cloud1.html')

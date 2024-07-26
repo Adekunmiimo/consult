@@ -112,7 +112,7 @@
 }
 
 .page1InItWithYou{
-    background: url("..img/solarguy.jpg");
+    background: url("../img/solarguy.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -207,7 +207,7 @@
     height: 600px;
     overflow: hidden;
     border-radius: 10px;
-    background: url("..img/dis1.jpg");
+    background: url("../img/dis1.jpg");
     
 }
 
@@ -238,7 +238,7 @@
 }
 
 .page1explor{
-    background: url("..img/pg1bng.jpg");
+    background: url("../img/pg1bng.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
